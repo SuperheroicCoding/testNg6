@@ -7,11 +7,13 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "ghPages": "ng build --prod --output-path docs --named-chunks --base-href https://superheroiccoding.github.io/testNg6/"
   },
   "private": true,
   "dependencies": {
     "@angular/animations": "^6.0.0",
+    "@angular/cdk": "^6.0.0",
     "@angular/common": "^6.0.0",
     "@angular/compiler": "^6.0.0",
     "@angular/core": "^6.0.0",
@@ -20,11 +22,12 @@
     "@angular/material": "^6.0.1",
     "@angular/platform-browser": "^6.0.0",
     "@angular/platform-browser-dynamic": "^6.0.0",
+    "@angular/pwa": "^0.6.0",
     "@angular/router": "^6.0.0",
     "core-js": "^2.5.4",
     "rxjs": "^6.0.0",
     "zone.js": "^0.8.26",
-    "@angular/cdk": "^6.0.0"
+    "@angular/service-worker": "^6.0.0"
   },
   "devDependencies": {
     "@angular/compiler-cli": "^6.0.0",
