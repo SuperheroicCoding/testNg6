@@ -1,6 +1,8 @@
 # TestNg6
+[Take a look](https://superheroiccoding.github.io/testNg6/)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
+Just a small test for [Angular CLI 6](https://github.com/angular/angular-cli), 
+with angular material, service workers. 
 
 ## Development server
 
